@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: logo;
+    src: url('./assets/GARAVEN.otf')format("truetype");
+}
+
+@font-face {
+    font-family: nav;
+    src: url('./assets/NFChimaeraSans-Regular.otf');
+}
+
+@font-face {
+    font-family: head;
+    src: url('./assets/head.ttf')format("truetype");
+}
+
+.menu{
+    z-index: 99;
+}
+
