@@ -2,6 +2,7 @@ import React from 'react'
 import Nav from '../components/Nav'
 import Hero from '../components/Hero'
 import About from '../components/About'
+import Expertise from '../components/Expertise'
 
 const Home = () => {
   return (
@@ -9,8 +10,9 @@ const Home = () => {
 
 
         <section ><Nav/></section>
-        <section className=''><Hero/></section>
-        <section><About/></section>
+        <section  id='hero'><Hero/></section>
+        <section id='about'><About/></section>
+        <section><Expertise/></section>
            
     </main>
   )

@@ -4,7 +4,7 @@ import { motion } from "motion/react";
 
 const About = () => {
   return (
-    <div className="h-[63vh] w-screen bg-[#e4e2cd] flex flex-col  md:flex-row md:h-[50vh]">
+    <div className="h-[63vh] w-screen bg-[#e4e2cd] flex flex-col  md:flex-row md:h-[50vh] border-b-[1px] border-black">
       <div className="w-screen  h-[50px] flex items-center     px-2 border-r-[0.1px] border-black md:justify-center md:h-[50vh] ">
         {" "}
         <h1 className="who font-head  px-3 md:text-[2vw] flex items-center gap-1">

@@ -10,7 +10,7 @@ const Nav = () => {
   const navitems = [
 
     {name:"works",href:""},
-     {name:"about",href:""},
+     {name:"about",href:"#about"},
       {name:"expertise",href:""},
       {name:"contact",href:""},
   ]
@@ -27,7 +27,7 @@ const Nav = () => {
     clipPath: "inset(0% 0% 0% 0%)",
     transition: {
       staggerChildren: 0.1,
-      delayChildren: 0.3,
+      delayChildren: 0.1,
       when: "beforeChildren"
     }
   }
@@ -97,7 +97,7 @@ const buttonVariants = {
         {/* Desktop nav */}
         <div className="h-full w-[40%] hidden md:flex justify-center items-center gap-5 font-nav capitalize">
           {navitems.map(item=>(
-            <a href="" className="group">{item.name} <motion.div className=" border-[#433119] transition-all duration-75 ease-linear group-hover:border-2 "></motion.div></a>
+            <a href={item.href} className="group">{item.name} <motion.div className=" border-[#433119] transition-all duration-75 ease-linear group-hover:border-2 "></motion.div></a>
           ))}
         </div>
 

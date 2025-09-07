@@ -27,7 +27,7 @@ const Hero = () => {
 </motion.h1>       
         </div>
         <motion.div className='h-[50vh] w-[90%]  absolute top-[65%] left-[50%] -translate-x-[50%] -translate-y-[50%] rounded-lg md:h-[60vh] md:w-[50%]'  initial={{ clipPath: "inset(100% 100% 100% 100%)" }}  // collapsed (hidden in center)
-         animate={{ clipPath: "inset(0% 0% 0% 0%)" }} transition={{duration:3}} >
+         animate={{ clipPath: "inset(0% 0% 0% 0%)" }} transition={{duration:0.9}} >
           <img src="/banner.jpg" className='h-full w-full object-cover object-center rounded-lg' alt="" />
         </motion.div>
        
