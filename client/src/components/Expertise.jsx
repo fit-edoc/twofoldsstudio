@@ -70,9 +70,12 @@ const data = [
             {data.map((item,idx)=>(
                 <div className='min-h-[70vh] w-screen  py-2'>
 <motion.div
-  className="h-[250px] w-[80%] mx-auto rounded-lg  overflow-hidden relative md:h-[70vh] md:w-[40%]"
+  className="h-[250px]  w-[80%] mx-auto rounded-lg  overflow-hidden relative md:h-[70vh] md:w-[40%]"
   onMouseEnter={() => setIshovered(item.id)}
   onMouseLeave={() => setIshovered(null)}
+  initial={{y:40}}
+  whileInView={{y:[70,0]}}
+  
 >
   <motion.img
     src={item.img}
@@ -92,8 +95,8 @@ const data = [
   />
 </motion.div>
 
-                    <div className='h-[100px] px-7 py-1 flex flex-col'> <h1 className='text-[25px] font-nav'>{item.title}</h1> 
-                    <p  className='font-logo'>{item.description}</p></div>
+                    <div className='min-h-[100px]  w-[80%] mx-auto px-7 py-1 flex flex-col md:text-center md:w-[45%]'> <h1 className='text-[25px] font-nav'>{item.title}</h1> 
+                    <p  className='font-thin bg-white px-1 rounded-lg '>{item.description}</p></div>
                 </div>
             ))}
 
