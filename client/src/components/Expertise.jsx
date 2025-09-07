@@ -75,6 +75,7 @@ const data = [
   onMouseLeave={() => setIshovered(null)}
   initial={{y:40}}
   whileInView={{y:[70,0]}}
+  viewport={{once:true}}
   
 >
   <motion.img
