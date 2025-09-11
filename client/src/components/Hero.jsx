@@ -10,7 +10,7 @@ const Hero = () => {
   Your Social Growth Story Starts in{" "}
   <span className="relative inline-block px-2">
     {/* Text stays above */}
-    <span className="relative z-20  text-white"  style={{ textShadow: "5px 5px 6px rgba(0,0,0,0.4)" }}>TwoFolds Studio</span>
+    <span className="relative z-20  text-white"  style={{ textShadow: "5px 5px 6px rgba(0,0,0,0.4)" }}>Creative Studio</span>
 
     {/* Scribble behind */}
     <span className="absolute inset-0 flex items-center justify-center z-10">
