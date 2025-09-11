@@ -18,7 +18,7 @@ const About = () => {
           We're Your Creative Partner."
         </motion.h2>
         <motion.p className="py-6 text-start text-[20px] font-logo relative  md:px-5" initial={{y:20,opacity:0}} whileInView={{opacity:1,y:0}} transition={{duration:1,ease:"easeIn"}}>
-          We drive growth with every scroll. Our digital strategies and social media expertise are designed to attract your ideal customers and convert them into loyal advocates for <span className="bg-black text-white px-1">your brand. </span> <img src="/star.svg" className="ml-5 h-[70px] absolute left-[60%] bottom-[-5%] md:h-[100px] md:bottom-[-25%]" alt="" />
+          We drive growth with every scroll. Our digital strategies and social media expertise are designed to attract your ideal customers and convert them into loyal advocates for <span className="bg-black text-white px-1">your brand. </span> <img src="/star.svg" className="ml-5 h-[70px] absolute left-[60%] bottom-[-5%] md:h-[100px] md:bottom-[-27%]" alt="" />
         </motion.p>
        
       </div>
