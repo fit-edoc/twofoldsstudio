@@ -12,7 +12,7 @@ const Home = () => {
         <section ><Nav/></section>
         <section  id='hero'><Hero/></section>
         <section id='about'><About/></section>
-        <section><Expertise/></section>
+        <section id="expertise"><Expertise/></section>
            
     </main>
   )

@@ -11,7 +11,7 @@ const Nav = () => {
 
     {name:"works",href:""},
      {name:"about",href:"#about"},
-      {name:"expertise",href:""},
+      {name:"expertise",href:"#expertise"},
       {name:"contact",href:""},
   ]
   const containerVariants = {
@@ -89,9 +89,9 @@ const buttonVariants = {
         {/* Logo */}
         <div className="h-full w-[30%] flex justify-center items-center font-logo gap-1 ml-5">
           <h1 className="text-nowrap">
-            <span className="text-[30px]">TWO</span>
+            <span className="text-[25px] md:text-[30px]">Creative</span>
           </h1>
-          <span className="leading-3 md:w-[20px]">FOLDS STUDIO</span>
+          <span className="leading-3 text-[15px] md:w-[20px]">FOLDS STUDIO</span>
         </div>
 
         {/* Desktop nav */}
